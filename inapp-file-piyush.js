@@ -1,4 +1,3 @@
-
 var promoCode = "";
 var audio = $('#audio')[0];
 var isScratching = false;
@@ -137,4 +136,5 @@ async function copyCode() {
             "Content not Copied: InApp event tracking is not supported in current WebEngage SDK version. Please update the WebEngage SDK."
         );
     }
+
 }
